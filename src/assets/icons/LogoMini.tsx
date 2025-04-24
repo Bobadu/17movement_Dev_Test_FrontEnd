@@ -1,0 +1,33 @@
+// src/assets/icons/LogoMini.tsx
+import React from 'react';
+
+export const LogoMini: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="55" viewBox="0 0 52 55" fill="none" {...props}>
+            <g filter="url(#filter0_d_1_15)">
+                <path d="M27.9307 13.6608L25.2296 12.5105C24.7714 12.3153 24.241 12.5269 24.045 12.9832L14.3549 35.5353C14.1588 35.9915 14.3714 36.5196 14.8296 36.7147L17.5307 37.8651C17.989 38.0602 18.5194 37.8486 18.7154 37.3924L28.4055 14.8402C28.6015 14.384 28.389 13.856 27.9307 13.6608Z" fill="url(#paint0_linear_1_15)"/>
+                <path d="M28.0963 32.8504L35.7018 14.9135C35.916 14.4059 35.6847 13.8183 35.1814 13.6023L32.729 12.5437C32.215 12.3212 31.6174 12.561 31.3968 13.0795L22.0928 34.8465C21.4289 36.3997 22.5533 38.1323 24.2303 38.1388L25.2113 38.1431L36.8541 38.1452C37.4881 38.1452 38 37.6268 38 36.9895V33.9802C38 33.3559 37.4988 32.8504 36.8798 32.8504H28.0963Z" fill="url(#paint1_linear_1_15)"/>
+            </g>
+            <defs>
+                <filter id="filter0_d_1_15" x="0.281982" y="0.437805" width="51.718" height="53.7075" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="2"/>
+                    <feGaussianBlur stdDeviation="7"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.694118 0 0 0 0 0.117647 0 0 0 0 0.188235 0 0 0 0.6 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_15"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_15" result="shape"/>
+                </filter>
+                <linearGradient id="paint0_linear_1_15" x1="23.7543" y1="19.6721" x2="15.1299" y2="36.7595" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#FF1A35"/>
+                    <stop offset="1" stopColor="#A01F2E"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_1_15" x1="29.9625" y1="19.4484" x2="29.6145" y2="38.1388" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#FF1A35"/>
+                    <stop offset="1" stopColor="#A01F2E"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    );
+};

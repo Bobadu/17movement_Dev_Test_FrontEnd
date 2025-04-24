@@ -1,0 +1,26 @@
+// src/assets/icons/ModelIcon.tsx
+import React from 'react';
+
+export const ModelIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none" {...props}>
+            <path d="M9.97226 3.83331L16.1112 7.37498V14.4583L9.97226 18L3.83337 14.4583V7.37498L9.97226 3.83331Z" stroke="url(#paint0_linear_133_32)" strokeWidth="2" strokeLinejoin="round"/>
+            <path d="M9.97222 1V3.68421M3.69167 7.26316L9.97222 10.8421M9.97222 10.8421L16.2528 7.26316M9.97222 10.8421V18M16.2528 14.4211L18.9444 15.7632M1 15.7632L3.69167 14.4211" stroke="url(#paint1_linear_133_32)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M13.0417 5.72223L16.1112 7.4762V10.9841M6.90282 5.72223L3.83337 7.4762V10.9841M6.90282 16.246L9.97226 18L13.0417 16.246" stroke="url(#paint2_linear_133_32)" strokeWidth="2" strokeLinejoin="round"/>
+            <defs>
+                <linearGradient id="paint0_linear_133_32" x1="9.98212" y1="7.68748" x2="9.84326" y2="17.9981" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#FF1A35"/>
+                    <stop offset="1" stopColor="#A01F2E"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_133_32" x1="9.98662" y1="5.625" x2="9.8498" y2="17.9985" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#FF1A35"/>
+                    <stop offset="1" stopColor="#A01F2E"/>
+                </linearGradient>
+                <linearGradient id="paint2_linear_133_32" x1="9.98212" y1="9.06251" x2="9.87781" y2="17.9988" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#FF1A35"/>
+                    <stop offset="1" stopColor="#A01F2E"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    );
+};
